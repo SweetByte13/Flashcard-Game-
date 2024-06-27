@@ -1,0 +1,81 @@
+{
+  "cards": [
+    {
+      "id": "1",
+      "name": "Crocodile",
+      "spanish": "Cocodrilo",
+      "french": "Crocodile",
+      "image": "https://media.istockphoto.com/id/1084216174/vector/cartoon-cute-crocodile-vector-illustration-of-funny-happy-alligator.jpg?s=612x612&w=0&k=20&c=3nIQia7_F3GYZ1mEJ5euZhOFuuVBIKhftOGkn7e11Mw="
+    },
+    {
+      "id": "2",
+      "name": "Turtle",
+      "spanish": "Tortuga",
+      "french": "Tortue",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOv5P2-Hg4akT1g2AUQ3vUFoOKydSk2T5iRoxBEIS7RpipybBWFgJpsEfhslp3-l6ZJN0&usqp=CAU"
+    },
+    {
+      "id": "3",
+      "name": "Fish",
+      "spanish": "Pez",
+      "french": "Poisson",
+      "image": "https://media.istockphoto.com/id/1146585292/vector/cartoon-largemouth-bass.jpg?s=612x612&w=0&k=20&c=O963vUG77FB4GJQk7rxv8I5vjjlOMjy5gC3Vg1-_WeI="
+    },
+    {
+      "id": "4",
+      "name": "Dog",
+      "spanish": "Perro",
+      "french": "Chien",
+      "image": "https://i.pinimg.com/736x/8b/c0/a6/8bc0a67ad5706f2ac894149559e8acb3.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Cat",
+      "spanish": "Gato",
+      "french": "Chat",
+      "image": "https://img.freepik.com/free-vector/little-cute-cat-cartoon-character_1308-140198.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Owl",
+      "spanish": "Buho",
+      "french": "Hibou",
+      "image": "https://t4.ftcdn.net/jpg/01/13/56/75/360_F_113567580_woNlHKKVX6CrnBoR0wwAh5yDALhTCEfy.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Sheep",
+      "spanish": "Oveja",
+      "french": "Mouton",
+      "image": "https://t3.ftcdn.net/jpg/05/90/17/26/360_F_590172680_mL0VBYGjt979JSmyNDpa1GKwz6ftViTF.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Cow",
+      "spanish": "Vaca",
+      "french": "Vache",
+      "image": "https://st.depositphotos.com/1967477/2737/v/450/depositphotos_27371729-stock-illustration-cute-cow-cartoon.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Pig",
+      "spanish": "Cerdo",
+      "french": "Porc",
+      "image": "https://thumbs.dreamstime.com/b/cartoon-pig-pointing-isolated-white-background-illustration-90768295.jpg"
+    },
+    {
+      "id": "6ba9",
+      "name": "Monkey",
+      "spanish": "",
+      "french": "Mono",
+      "image": "data:image/jpeg;base64,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"
+    },
+    {
+      "id": "a09e",
+      "name": "",
+      "spanish": "Pajaro",
+      "french": "Oiseau",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRjipkYb0KA3adYMJK60U5mx3EYZVwjmW_R0Ur2OzuhXpVJHUnS4xVtHBH5A&s"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+/* boarder around cards
+image of animal on the front with boarder
+trashcan icon in lower left corner 
+*/
+
+.body {
+    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.page-header {
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px;
+    width: 100%;
+    z-index: 1000;
+    background: #515DA2;
+    opacity: .8;
+}
+
+#title {
+    font-size: 3.5rem;
+}
+
+#label {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+#language-select {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.flashcard-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 1600px;
+    height: 1500px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+
+.flashcard {
+    position: relative;
+    width: 65%;
+    height: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    transform-style: preserve-3d;
+    transition: all .8s ease;
+    margin: 10px auto;
+
+}
+
+.flashcard-front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    text-align: center;
+    transform: rotateY(180deg);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hidden {
+    display: none;
+}
+
+.flipCard {
+    transform: rotateY(180deg);
+}
+
+
+.flashCardImage {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.hover {
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+
+.form-container {
+    height: auto;
+    background: #515DA2;
+    opacity: .8;
+    width: 100%;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#form-language-select {
+    border-radius: 5px;
+    height: 2rem;
+    width: 40%;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 3px;
+}
+
+.input-text {
+    border-radius: 5px;
+    height: 2rem;
+    width: 40%;
+    font-size: 18px;
+    font-family: monospace;
+    margin: 3px;
+  }
+
+
+  .trash {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+  }
+  
+#new-card-btn {
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .7);
+    margin-bottom: 2%;
+    padding: 10px 10px;
+}

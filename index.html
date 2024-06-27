@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script defer type="text/javascript" src="src/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Animal Flash Card Game</title>
+</head>
+
+<body>
+    <div class="page-header">
+        <h1 id ="title">Animal Flash Card Game</h1>
+        <div class="language-selection">
+            <label for="language-select" id="label"> Select a Language:
+                <select name="languages" id="language-select">
+                    <option value=""> Please select an option</option>
+                    <option value="English" selected>English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="French">French</option>
+                </select>
+            </label>
+        </div>
+    </div>
+    <div class="flashcard-container">
+
+    </div>
+
+    <div class="form-container">
+        <form class="add-toy-form">
+            <h1>Create A New Animal Card!</h1>
+
+            <input type="text" name="name" id ='english' value="" placeholder="Enter a animal's name in english..." class="input-text"
+                autocomplete="off" />
+            <br />
+            <input type="text" name="french" id = 'french' value="" placeholder="Enter a animal's name in french..." class="input-text"
+                autocomplete="off" />
+            <br />
+            <input type="text" name="spanish" id = 'spanish' value="" placeholder="Enter a animal's name in spanish..." class="input-text"
+                autocomplete="off" />
+            <br />
+            <input type="text" name="image" value="" placeholder="Enter a cartoon animal's image URL..."
+                class="input-text" autocomplete="off" />
+            <br />
+           
+            <h1 style="text-align:center">
+                Have Other Animals You Want To Learn?
+            </h1>
+            <button id="new-card-btn">Submit A New Animal Card!</button>
+        </form>
+    </div>
+</body>
+
+</html>
